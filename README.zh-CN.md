@@ -8,14 +8,14 @@ macOS 窗口。`raven web` 本来就会在浏览器里打开完整界面，这�
 前端，它调用机器上已经装好的 `raven`，加载那个命令提供的页面。所以 Raven
 自己更新，这边不用跟着重新构建；我们在这边加功能，也不会影响上游。
 
-![连接面板](docs/screenshots/03-connections-window.png)
+![连接面板](https://raw.githubusercontent.com/hyi1233/Raven-Desktop/main/docs/screenshots/03-connections-window.png)
 
-![新任务窗口](docs/screenshots/00-window.png)
+![新任务窗口](https://raw.githubusercontent.com/hyi1233/Raven-Desktop/main/docs/screenshots/00-window.png)
 
 上面两张是真实运行画面的截图，外面那层 macOS 窗口边框是画上去的。截图用的
 机器没有屏幕录制权限，没法直接拍窗口，所以边框用代码合成，里面是实际跑起来
 的页面。没有边框的原始截图在
-[docs/screenshots/](docs/screenshots/)（`01-new-task.png`、`02-connections.png`）。
+[docs/screenshots/](https://github.com/hyi1233/Raven-Desktop/tree/main/docs/screenshots)（`01-new-task.png`、`02-connections.png`）。
 
 ## 为什么要单独建仓库
 

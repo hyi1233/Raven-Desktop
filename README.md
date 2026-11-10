@@ -11,13 +11,13 @@ does not fork the Raven frontend or ship a second copy of it: it uses the
 serves. That means changes to Raven itself arrive without a rebuild here, and
 anything we add to this repository stays in this repository.
 
-![Raven Desktop showing the connections panel](docs/screenshots/03-connections-window.png)
+![Raven Desktop showing the connections panel](https://raw.githubusercontent.com/hyi1233/Raven-Desktop/main/docs/screenshots/03-connections-window.png)
 
-![A new task in the Raven Desktop window](docs/screenshots/00-window.png)
+![A new task in the Raven Desktop window](https://raw.githubusercontent.com/hyi1233/Raven-Desktop/main/docs/screenshots/00-window.png)
 
 The two images above are real page captures with a macOS window frame drawn
 around them. Raw captures without the frame are in
-[docs/screenshots/](docs/screenshots/) (`01-new-task.png` and
+[docs/screenshots/](https://github.com/hyi1233/Raven-Desktop/tree/main/docs/screenshots) (`01-new-task.png` and
 `02-connections.png`). Screen recording is blocked on the machine used for the
 captures, so the frame is drawn in code rather than photographed; the content
 inside it is the running app.
