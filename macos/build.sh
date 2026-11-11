@@ -44,6 +44,7 @@ mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources/scripts"
 cp "$HERE/build/RavenDesktop" "$APP/Contents/MacOS/RavenDesktop"
 cp "$HERE/build/Raven.icns" "$APP/Contents/Resources/Raven.icns"
 cp "$HERE/scripts/launch.sh" "$APP/Contents/Resources/scripts/launch.sh"
+cp "$HERE/scripts/diagnostics.js" "$APP/Contents/Resources/scripts/diagnostics.js"
 chmod +x "$APP/Contents/Resources/scripts/launch.sh"
 
 cat > "$APP/Contents/Info.plist" <<'PLIST'
@@ -57,8 +58,8 @@ cat > "$APP/Contents/Info.plist" <<'PLIST'
     <key>CFBundleExecutable</key><string>RavenDesktop</string>
     <key>CFBundleIconFile</key><string>Raven.icns</string>
     <key>CFBundlePackageType</key><string>APPL</string>
-    <key>CFBundleShortVersionString</key><string>1.0</string>
-    <key>CFBundleVersion</key><string>1</string>
+    <key>CFBundleShortVersionString</key><string>1.1</string>
+    <key>CFBundleVersion</key><string>2</string>
     <key>LSMinimumSystemVersion</key><string>12.0</string>
     <key>NSHighResolutionCapable</key><true/>
     <key>NSSupportsAutomaticTermination</key><false/>
